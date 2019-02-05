@@ -43,7 +43,7 @@ def process_results(movie_list):
         id = movie_item.get('id')
         title = movie_item.get('original_title')
         overview = movie_item.get('overview')
-        poster = movie.item.get('poster-path')
+        poster = movie_item.get('poster-path')
         vote_average = movie_item.get('vote_average')
         vote_count = movie_item.get('vote_count')
 
